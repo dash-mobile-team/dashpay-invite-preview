@@ -1,9 +1,18 @@
 # dashpay-invite-preview
+System Requirements:
+* Ubuntu 20.04 LTS
+* Node.js (v10.19.0 recommended)
+* npm (6.14.4 recommended)
 
-1. git clone https://github.com/tomasz-ludek/dashpay-invite-preview.git
-2. cd dashpay-invite-preview/functions
-3. npm install
-4. firebase serve --only functions,hosting
+[How To Install Node.js on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
+# Building from the command line
+1. npm install -g firebase-tools
+2. firebase login
+3. git clone https://github.com/tomasz-ludek/dashpay-invite-preview.git
+4. cd dashpay-invite-preview/functions
+5. npm install
+6. firebase serve --only functions,hosting
 
 (npm install -g firebase-tools)
 
